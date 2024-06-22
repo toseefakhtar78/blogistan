@@ -20,6 +20,7 @@ export default function Layout({ children, home }) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="google-adsense-account" content="ca-pub-3527485735334164"></meta>
       </Head>
       <header className={styles.header}>
         {home ? (
