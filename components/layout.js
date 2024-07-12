@@ -10,6 +10,7 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
+        
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="blog" />
         <meta
@@ -18,9 +19,10 @@ export default function Layout({ children, home }) {
             siteTitle
           )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
         />
+        <meta name="google-adsense-account" content="ca-pub-1241486495309147"></meta>
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="google-adsense-account" content="ca-pub-3527485735334164"></meta>
+        
       </Head>
       <header className={styles.header}>
         {home ? (
