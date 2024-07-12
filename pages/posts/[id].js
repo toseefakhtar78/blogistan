@@ -26,6 +26,8 @@ export default function Post({ postData }) {
     <Layout>
       <Head>
         <title>{postData.title}</title>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1241486495309147"
+     crossorigin="anonymous"></script>
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>

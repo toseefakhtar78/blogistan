@@ -18,6 +18,8 @@ export default function Home({ allPostsData }) {
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1241486495309147"
+     crossorigin="anonymous"></script>
       </Head>
       <section className={utilStyles.headingMd}>
         <p align='center'>Unveiling Trends in Politics, Fashion, and Sports.</p>
